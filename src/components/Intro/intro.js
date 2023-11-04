@@ -11,7 +11,7 @@ const Intro = () => {
         <section id="intro"                 
         style={{
             placeContent: "center",
-            height: "100vh",
+            height: "130vh",
         }}>
             <div className="introContent">
                 <span className = "hello">Hello,</span>
@@ -21,10 +21,63 @@ const Intro = () => {
                     working towards a Computer Science BS with a focus in Software Engineering and a minor in Mathematics.
                 </span>
             </div>
-            <div className="socialMedias">
-                    <a href="https://www.linkedin.com/in/julia-o-neill-08015325b/" target="_blank" rel="noopener noreferrer" ><img src={linkedinLogo} alt="linkedIn" className="socialsImg"></img></a>
-                    <a href="https://github.com/jmoneill15" target="_blank" rel="noopener noreferrer" ><img src={githubLogo} alt="github" className="socialsImg"></img></a>
-                    <a href="https://gitlab.eecis.udel.edu/jmoneill" target="_blank" rel="noopener noreferrer" ><img src={gitlabLogo} alt="gitlab" className="socialsImg"></img></a>
+            <div
+            className="socialMedias">
+                    <a href="https://www.linkedin.com/in/juliaoneill15" target="_blank" rel="noopener noreferrer" >
+                        
+<motion.img 
+            whileHover={{
+                scale: 1.1
+            }}           
+            initial={{ 
+                scale: 0 
+            }}
+            animate={{ 
+                rotate: 360, 
+                scale: 1 
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20,
+                duration: 1.5,
+            }} src={linkedinLogo} alt="linkedIn" className="socialsImg"></motion.img></a>
+                    <a href="https://github.com/jmoneill15" target="_blank" rel="noopener noreferrer" >
+        <motion.img 
+            whileHover={{
+                scale: 1.1
+            }}            
+            initial={{ 
+                scale: 0 
+            }}
+            animate={{ 
+                rotate: 360, 
+                scale: 1 
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20,
+                duration: 1.5,
+            }} src={githubLogo} alt="github" className="socialsImg"></motion.img></a>
+                    <a href="https://gitlab.eecis.udel.edu/jmoneill" target="_blank" rel="noopener noreferrer" >
+        <motion.img
+            whileHover={{
+                scale: 1.1
+            }}             
+            initial={{ 
+                scale: 0 
+            }}
+            animate={{ 
+                rotate: 360, 
+                scale: 1 
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20,
+                duration: 1.5,
+            }} src={gitlabLogo} alt="gitlab" className="socialsImg"></motion.img></a>
             </div>
             <img src="" alt="Profile" className="bg"/>
         </section>
