@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from "framer-motion";
 import "./works.css";
 import periodLogo from "../../assets/periodLogo.PNG";
 import moviePediaLogo from "../../assets/movepedia.png";

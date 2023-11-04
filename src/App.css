@@ -14,6 +14,16 @@
   }
 }
 
+.portfolio-container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.portfolio-item{
+  scroll-snap-align: start;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,4 +46,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.example-button {
+  background-color: rgb(105, 58, 191);
+  color: black;
+  font-size: 1.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
 }

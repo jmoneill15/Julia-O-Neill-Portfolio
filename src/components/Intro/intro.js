@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from "framer-motion";
 import "./intro.css";
 import linkedinLogo from "../../assets/LinkedIn.PNG";
 import githubLogo from "../../assets/GitHub.PNG";
@@ -7,7 +8,11 @@ import gitlabLogo from "../../assets/GitLab.png";
 //add href="" target="_blank" rel="noopener noreferrer" to <a> for img
 const Intro = () => {
     return(
-        <section id="intro">
+        <section id="intro"                 
+        style={{
+            placeContent: "center",
+            height: "100vh",
+        }}>
             <div className="introContent">
                 <span className = "hello">Hello,</span>
                 <span className= "introText">I'm <span className="introName">Julia </span><br/> <span className ="position">Undergraduate Student</span><br/></span>

@@ -16,6 +16,7 @@
     object-fit: cover;
     height: 3.5rem;
     width: 4rem;
+    border-radius: 0.4rem;
 }
 
 .destopMenuListItem{
@@ -42,6 +43,8 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+    height: 4rem;
+    width: 9.7rem;
     border-radius: 1rem;
 }
 .desktopMenuImg{
