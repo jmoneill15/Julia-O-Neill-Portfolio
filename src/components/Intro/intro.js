@@ -4,7 +4,6 @@ import "./intro.css";
 import linkedinLogo from "../../assets/LinkedIn.PNG";
 import githubLogo from "../../assets/GitHub.PNG";
 import gitlabLogo from "../../assets/GitLab.png";
-
 //add href="" target="_blank" rel="noopener noreferrer" to <a> for img
 const Intro = () => {
     return(
@@ -21,14 +20,12 @@ const Intro = () => {
                     working towards a Computer Science BS with a focus in Software Engineering and a minor in Mathematics.
                 </span>
             </div>
-            <div
-            className="socialMedias">
-                    <a href="https://www.linkedin.com/in/juliaoneill15" target="_blank" rel="noopener noreferrer" >
-                        
+            <div className="socialMedias">
+                <a href="https://www.linkedin.com/in/juliaoneill15" target="_blank" rel="noopener noreferrer" >                        
 <motion.img 
             whileHover={{
-                scale: 1.1
-            }}           
+                scale: 1.1,
+            }}            
             initial={{ 
                 scale: 0 
             }}
@@ -41,11 +38,13 @@ const Intro = () => {
                 stiffness: 260,
                 damping: 20,
                 duration: 1.5,
-            }} src={linkedinLogo} alt="linkedIn" className="socialsImg"></motion.img></a>
+            }}
+
+             src={linkedinLogo} alt="linkedIn" className="socialsImg"></motion.img></a>
                     <a href="https://github.com/jmoneill15" target="_blank" rel="noopener noreferrer" >
         <motion.img 
             whileHover={{
-                scale: 1.1
+                scale: 1.1,
             }}            
             initial={{ 
                 scale: 0 

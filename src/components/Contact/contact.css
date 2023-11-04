@@ -41,6 +41,7 @@
     border-radius: 0.5rem;
     background-color: #463830;
     font-family:serif;
+    outline-color: black;
 }
 
 .submitBtn{
