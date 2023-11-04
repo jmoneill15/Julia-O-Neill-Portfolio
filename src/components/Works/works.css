@@ -1,0 +1,91 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.worksTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+/*
+.worksDescription{
+    font-weight: 200;
+    font-size: 1.05rem;
+}
+*/
+
+.workText{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.workGrid{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+    height: 60vh;
+    max-width: 50rem;
+}
+
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 17rem;
+    max-width: 19rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem;
+    
+}
+
+.worksImgs:hover{
+    color:#102820;
+    width: 20rem;
+    height: 60vh;
+    box-shadow: 2px 2px 4px;
+    padding: 0.5rem 1.5rem;
+}
+
+.worksImg{
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+/*
+.workButton{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family:serif;
+    
+}
+*/
+.title{
+    font-size: large;
+    font-weight: 500;
+}
+
+.description{
+    font-size: small;
+    font-weight: 400;
+}
+
+@media screen and (max-width:585px){
+    .worksImg{
+        height: 48vw;
+    }
+}

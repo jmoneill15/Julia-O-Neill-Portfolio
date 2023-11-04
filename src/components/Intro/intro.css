@@ -1,0 +1,88 @@
+/*    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 15vw;
+    height: 15vh;
+    max-width: 20rem;*/
+
+#intro{
+    margin: 0 auto;
+    height: 120vh;
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.introName{
+    font-size: 6rem;
+    color: #102820;
+}
+
+.introText{
+    font-size: 4rem;
+}
+.positon{
+    font-size: 5rem;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+}
+
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+.socialMedias{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialsImg{
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin: 0 0.75rem;
+    overflow-x: hidden;
+}
+.socialsImg:hover{
+    color: black;
+    box-shadow: 1px 1px 6px;
+    border-radius: 100%; 
+}
+
+
+@media screen and (max-width:840px){
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+
+}
