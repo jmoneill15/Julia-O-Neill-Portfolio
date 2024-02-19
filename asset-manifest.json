@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.bec5b44a.css",
+    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.9ce19a35.css",
     "main.js": "/Julia-O-Neill-Portfolio/static/js/main.0eae1a0a.js",
     "static/media/periodLogo.PNG": "/Julia-O-Neill-Portfolio/static/media/periodLogo.f3a8a7470726e6acdabb.PNG",
     "static/media/Headshot.png": "/Julia-O-Neill-Portfolio/static/media/Headshot.165a4d6c31cf270ede2a.png",
@@ -10,11 +10,11 @@
     "static/media/LinkedIn.PNG": "/Julia-O-Neill-Portfolio/static/media/LinkedIn.15a66f08108f81782cf0.PNG",
     "static/media/movepedia.png": "/Julia-O-Neill-Portfolio/static/media/movepedia.056bcb220a7796e4c61d.png",
     "index.html": "/Julia-O-Neill-Portfolio/index.html",
-    "main.bec5b44a.css.map": "/Julia-O-Neill-Portfolio/static/css/main.bec5b44a.css.map",
+    "main.9ce19a35.css.map": "/Julia-O-Neill-Portfolio/static/css/main.9ce19a35.css.map",
     "main.0eae1a0a.js.map": "/Julia-O-Neill-Portfolio/static/js/main.0eae1a0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec5b44a.css",
+    "static/css/main.9ce19a35.css",
     "static/js/main.0eae1a0a.js"
   ]
 }
