@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.4821e254.css",
-    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.46f3721a.js",
+    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.3bbe7c5d.css",
+    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.61a96f76.js",
     "static/media/periodLogo.PNG": "/Julia-O-Neill-Portfolio/static/media/periodLogo.f3a8a7470726e6acdabb.PNG",
     "static/media/ContactMe.PNG": "/Julia-O-Neill-Portfolio/static/media/ContactMe.3927c52ad06d1fc61164.PNG",
     "static/media/JO.png": "/Julia-O-Neill-Portfolio/static/media/JO.d5a17d7244b16a755a0a.png",
@@ -9,11 +9,11 @@
     "static/media/LinkedIn.PNG": "/Julia-O-Neill-Portfolio/static/media/LinkedIn.15a66f08108f81782cf0.PNG",
     "static/media/movepedia.png": "/Julia-O-Neill-Portfolio/static/media/movepedia.056bcb220a7796e4c61d.png",
     "index.html": "/Julia-O-Neill-Portfolio/index.html",
-    "main.4821e254.css.map": "/Julia-O-Neill-Portfolio/static/css/main.4821e254.css.map",
-    "main.46f3721a.js.map": "/Julia-O-Neill-Portfolio/static/js/main.46f3721a.js.map"
+    "main.3bbe7c5d.css.map": "/Julia-O-Neill-Portfolio/static/css/main.3bbe7c5d.css.map",
+    "main.61a96f76.js.map": "/Julia-O-Neill-Portfolio/static/js/main.61a96f76.js.map"
   },
   "entrypoints": [
-    "static/css/main.4821e254.css",
-    "static/js/main.46f3721a.js"
+    "static/css/main.3bbe7c5d.css",
+    "static/js/main.61a96f76.js"
   ]
 }
