@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.dc1bc8bf.css",
-    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.747b9d9e.js",
+    "main.css": "/Julia-O-Neill-Portfolio/static/css/main.111f3887.css",
+    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.9b98a5cd.js",
     "static/media/Headshot.png": "/Julia-O-Neill-Portfolio/static/media/Headshot.165a4d6c31cf270ede2a.png",
     "static/media/ContactMe.PNG": "/Julia-O-Neill-Portfolio/static/media/ContactMe.3927c52ad06d1fc61164.PNG",
     "static/media/JO.png": "/Julia-O-Neill-Portfolio/static/media/JO.d5a17d7244b16a755a0a.png",
     "static/media/GitHub.PNG": "/Julia-O-Neill-Portfolio/static/media/GitHub.6a36d365c1174501ce64.PNG",
     "static/media/LinkedIn.PNG": "/Julia-O-Neill-Portfolio/static/media/LinkedIn.15a66f08108f81782cf0.PNG",
     "index.html": "/Julia-O-Neill-Portfolio/index.html",
-    "main.dc1bc8bf.css.map": "/Julia-O-Neill-Portfolio/static/css/main.dc1bc8bf.css.map",
-    "main.747b9d9e.js.map": "/Julia-O-Neill-Portfolio/static/js/main.747b9d9e.js.map"
+    "main.111f3887.css.map": "/Julia-O-Neill-Portfolio/static/css/main.111f3887.css.map",
+    "main.9b98a5cd.js.map": "/Julia-O-Neill-Portfolio/static/js/main.9b98a5cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc1bc8bf.css",
-    "static/js/main.747b9d9e.js"
+    "static/css/main.111f3887.css",
+    "static/js/main.9b98a5cd.js"
   ]
 }

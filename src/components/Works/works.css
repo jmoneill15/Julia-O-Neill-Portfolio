@@ -87,6 +87,8 @@
 .grid{
     align-items: center;
     justify-content: center;
+    max-width: 98%;
+    z-index: 3;
 }
 .workCard{
     border-radius: .4rem;

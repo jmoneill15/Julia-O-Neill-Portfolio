@@ -41,15 +41,15 @@ const Works = () => {
         return (
             <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative",padding: "1.5rem 1.5rem" }}>
                 {work.map(work => (
-                    <Card id="workCard" hoverable key={work.id} style={{ width: 350, height:"300px"}}
+                    <Card id="workCard" hoverable key={work.id} style={{ width: 325, height:300}}
                         cover={
                          <div>
                             <motion.img
                                 src={work.original}
                                 alt="Original"
                                 style={{
-                                    width: 300,
-                                    height: 200,
+                                    width: 325,
+                                    height: 300,
                                     
                                     position: "absolute"
                                 }}
@@ -64,8 +64,8 @@ const Works = () => {
                                 src={work.hover}
                                 alt="Hover"
                                 style={{
-                                    width: 300,
-                                    height: 200,
+                                    width: 325,
+                                    height: 300,
                                    
                                     position: "absolute",
                                     opacity: 0, // Initially hidden
