@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Julia-O-Neill-Portfolio/static/css/main.dc1bc8bf.css",
-    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.3aa0cfd3.js",
+    "main.js": "/Julia-O-Neill-Portfolio/static/js/main.3bfeced1.js",
     "static/media/Headshot.png": "/Julia-O-Neill-Portfolio/static/media/Headshot.165a4d6c31cf270ede2a.png",
     "static/media/ContactMe.PNG": "/Julia-O-Neill-Portfolio/static/media/ContactMe.3927c52ad06d1fc61164.PNG",
     "static/media/JO.png": "/Julia-O-Neill-Portfolio/static/media/JO.d5a17d7244b16a755a0a.png",
@@ -9,10 +9,10 @@
     "static/media/LinkedIn.PNG": "/Julia-O-Neill-Portfolio/static/media/LinkedIn.15a66f08108f81782cf0.PNG",
     "index.html": "/Julia-O-Neill-Portfolio/index.html",
     "main.dc1bc8bf.css.map": "/Julia-O-Neill-Portfolio/static/css/main.dc1bc8bf.css.map",
-    "main.3aa0cfd3.js.map": "/Julia-O-Neill-Portfolio/static/js/main.3aa0cfd3.js.map"
+    "main.3bfeced1.js.map": "/Julia-O-Neill-Portfolio/static/js/main.3bfeced1.js.map"
   },
   "entrypoints": [
     "static/css/main.dc1bc8bf.css",
-    "static/js/main.3aa0cfd3.js"
+    "static/js/main.3bfeced1.js"
   ]
 }
