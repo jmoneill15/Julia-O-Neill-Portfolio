@@ -12,13 +12,13 @@ const Navbar = () => {
             <motion.img 
                 whileHover={{scale: 1.25}}
                 initial={{
-                    rotate: "0deg"
+                    scale: .75
                 }}
                 animate={{
-                    rotate: "360deg",
+                    scale:1,
                 }}
                 transition={{
-                    duration: 1.3,
+                    duration: 1.1,
                     ease: "easeIn",
                 }}
                 exit={{
@@ -31,7 +31,19 @@ const Navbar = () => {
                 <Link activeClass = "active" to="works" spy={true} smooth={true} offset={-50} duration={500} className="destopMenuListItem">Portfolio</Link>
                 <Link activeClass = "active" to="" spy={true} smooth={true} offset={-50} duration={500} className="destopMenuListItem">Other</Link>
             </div>
-            <motion.button whileHover={{scale: 1.25}} className = "desktopMenuButton" onClick={
+            <motion.button whileHover={{scale: 1.25}}                initial={{
+                    scale: .75
+                }}
+                animate={{
+                    scale:1,
+                }}
+                transition={{
+                    duration: 1.1,
+                    ease: "easeIn",
+                }}
+                exit={{
+                    rotate: "0deg"
+                }} className = "desktopMenuButton" onClick={
                 ()=> {document.getElementById("contactPage").scrollIntoView({behavior: "smooth"});}}>
                 <img  className="desktopMenuImg"src={contactImg} alt="contact me"/>
             </motion.button >

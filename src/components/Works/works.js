@@ -1,9 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
+import { useEffect } from "react";
 import {motion} from "framer-motion";
+//import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
+import { Card} from 'antd';
+import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+
+//import { Segmented } from 'antd'; 
 import "./works.css";
+import workData from "/Users/juliaoneill/Julia-O-Neill-Portfolio/src/works.json";
+/*
 import periodLogo from "../../assets/periodLogo.PNG";
 import moviePediaLogo from "../../assets/movepedia.png";
 import ciscwebsiteLogo from "../../assets/275WebsiteLogo.png";
+*/
+//make each card black and then on hover make it change to an image of the item like do that in the css and find a way to implement the image from the works json
+
 /*
 <div className = "worksImgs">
     <a href=""  target="_blank" rel="noopener noreferrer"><img src="" alt="" className="worksImg"/></a>
@@ -14,7 +25,115 @@ import ciscwebsiteLogo from "../../assets/275WebsiteLogo.png";
     </div>
 
 */
+const {Meta} = Card;
+
 const Works = () => {
+
+    //const [view, setView] = useState('Grid');
+
+
+    const [work, setData] = useState([]);
+    useEffect(()=> {
+        setData(workData);
+    }, []);
+
+    const GridView= () =>{
+        return (
+            <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative" }}>
+                {work.map(work => (
+                    <Card id="workCard" key={work.id} style={{ width: 350, height: 350 }}
+                        cover={
+                         <div>
+                            <motion.img
+                                src={work.original}
+                                alt="Original"
+                                style={{
+                                    width: 300,
+                                    height: 200,
+                                    top: 0,
+                                    left: 0,
+                                    position: "absolute"
+                                }}
+                                initial={{ opacity: 1 }}
+                                whileHover={{ opacity: 0 }}
+                                transition={{
+                                    duration: 1,
+                                    ease: "easeOut",
+                                }}
+                            />
+                            <motion.img
+                                src={work.hover}
+                                alt="Hover"
+                                style={{
+                                    width: 300,
+                                    height: 200,
+                                    top: 0,
+                                    left: 0,
+                                    position: "absolute",
+                                    opacity: 0, // Initially hidden
+                                }}
+                                initial={{ opacity: 0 }}
+                                whileHover={{ opacity: 1 }} // Show hover image on hover
+                                transition={{
+                                    duration: 1,
+                                    ease: "easeIn",
+                                }}
+                            />
+                        </div>
+                        }
+                        actions={[
+                            <SettingOutlined key="setting" />,
+                            <EditOutlined key="edit" />,
+                            <EllipsisOutlined key="ellipsis" />,
+                        ]}
+                        >
+                        <Meta id="bottomCard"
+                            description="This is the description"
+                        />
+                    </Card>
+                ))}
+            </motion.div>
+        );
+    }
+
+/*
+    const ListView= () =>{
+        return(
+            <div></div>
+        );
+
+
+    }
+    */
+    return (
+        GridView()
+    );
+
+    /*
+    return(
+        <div>
+        
+        <Segmented
+        options={[
+          {
+            value: 'List',
+            icon: <BarsOutlined />,
+          },
+          {
+            value: 'Grid',
+            icon: <AppstoreOutlined />,
+          },
+        ]}
+        value = {view}
+        onChange={setView}
+      />
+    
+        
+      </div>
+    );
+    
+    */
+    /*
     return(
         <section id="works">
             <heading className="worksTitle">My Portfolio</heading>
@@ -44,6 +163,7 @@ const Works = () => {
             
         </section>
     );
+    */
 
 }
 export default Works;

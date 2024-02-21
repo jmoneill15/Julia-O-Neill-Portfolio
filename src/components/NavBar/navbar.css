@@ -1,22 +1,24 @@
 .navbar {
     height: 5rem;
     width: 100 vw;
-    max-width: 75rem;
+    max-width: 99%;
     margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
+    margin-bottom: 7vh;
 }
 
 .logoImg{
     object-fit: cover;
-    height: 3.5rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 0.4rem;
+    margin-right: auto;
 }
 
 .destopMenuListItem{
@@ -46,6 +48,7 @@
     height: 4rem;
     width: 9.7rem;
     border-radius: 1rem;
+    margin-left: auto;
 }
 .desktopMenuImg{
     object-fit: cover;

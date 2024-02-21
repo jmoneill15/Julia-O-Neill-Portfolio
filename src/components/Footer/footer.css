@@ -1,0 +1,28 @@
+#footer{
+    margin: 0 auto;
+    height: 120vh;
+    width: 100vw;
+    max-width: 98%;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem, 2rem;
+}
+
+.socialMedias{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialsImg{
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin: 0 0.75rem;
+    overflow-x: hidden;
+}
+.socialsImg:hover{
+    color: black;
+    border-radius: 100%; 
+}

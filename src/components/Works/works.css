@@ -2,7 +2,7 @@
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
+    max-width: 75%;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -82,6 +82,17 @@
 .description{
     font-size: small;
     font-weight: 400;
+}
+
+.grid{
+    align-items: center;
+    justify-content: center;
+}
+.workCard{
+    border-radius: .4rem;
+}
+.bottomCard{
+    margin-top:"200px";
 }
 
 @media screen and (max-width:585px){
