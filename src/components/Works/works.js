@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import {motion} from "framer-motion";
 //import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
 import { Card} from 'antd';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+//import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 
 //import { Segmented } from 'antd'; 
 import "./works.css";
@@ -39,9 +39,9 @@ const Works = () => {
 
     const GridView= () =>{
         return (
-            <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative" }}>
+            <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative",padding: "1.5rem 1.5rem" }}>
                 {work.map(work => (
-                    <Card id="workCard" key={work.id} style={{ width: 350, height: 350 }}
+                    <Card id="workCard" hoverable key={work.id} style={{ width: 350, height:"300px"}}
                         cover={
                          <div>
                             <motion.img
@@ -50,8 +50,7 @@ const Works = () => {
                                 style={{
                                     width: 300,
                                     height: 200,
-                                    top: 0,
-                                    left: 0,
+                                    
                                     position: "absolute"
                                 }}
                                 initial={{ opacity: 1 }}
@@ -67,8 +66,7 @@ const Works = () => {
                                 style={{
                                     width: 300,
                                     height: 200,
-                                    top: 0,
-                                    left: 0,
+                                   
                                     position: "absolute",
                                     opacity: 0, // Initially hidden
                                 }}
@@ -81,12 +79,8 @@ const Works = () => {
                             />
                         </div>
                         }
-                        actions={[
-                            <SettingOutlined key="setting" />,
-                            <EditOutlined key="edit" />,
-                            <EllipsisOutlined key="ellipsis" />,
-                        ]}
                         >
+                        
                         <Meta id="bottomCard"
                             description="This is the description"
                         />
