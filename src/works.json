@@ -9,6 +9,7 @@
         "type": "Website",
         "creators": "Julia O'Neill, Aman Singh,Sakhee Desai, Heni Patel, Priya Salako,",
         "id": 1
+    
     },
     {
         "name": "Period Poverty",
@@ -49,5 +50,15 @@
         "type": "C Program",
         "creators": "Julia O'Neill, Anna Vicci",
         "id": 5
+    },
+    {
+        "name": "MathBridge",
+        "date": "March 2024",
+        "original": "https://mail.google.com/mail/u/0?ui=2&ik=9e9d4aad63&attid=0.13&permmsgid=msg-a:r-8913639880295023044&th=18dcd3cbef1fa741&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-Xq-XB9gk7m5KgCaWk4TyRQWYQOhsefJvrhBl6fHBQsGv3wNNZiRUifYnB7X96El6LhFKKL5PqVlffUrutINmKwkkqES3MRjWWsfbm9b1Mr-9yAk83bEBsK3Q&disp=emb&realattid=ii_lsw7rlc712",
+        "hover":"https://mail.google.com/mail/u/0?ui=2&ik=9e9d4aad63&attid=0.6&permmsgid=msg-a:r-6348400454497661595&th=18dcd17b88b3835d&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9inugnV8cun60YxHgwN0ne9BCLUYwKskWw1xK3P20i19ZkIklEvplSwwGZQxzZQJLKwCLeD4a_bAlq3Q8jLAWJKuMoOdyHV13FTojvCWnFp8yzcNfU1P5y14A&disp=emb&realattid=ii_lsw6bh495",
+        "link": "https://mathbridge.study/",
+        "type": "Website",
+        "creators": "Julia O'Neill, Aman Singh,Sakhee Desai, Heni Patel",
+        "id": 6
     }
 ]

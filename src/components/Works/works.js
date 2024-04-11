@@ -39,56 +39,56 @@ const Works = () => {
 
     const GridView= () =>{
         return (
-            <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative",padding: "1.5rem 1.5rem" }}>
-                {work.map(work => (
-                    <Card id="workCard" hoverable key={work.id} style={{ width: 325, height:300}}
-                        cover={
-                         <div>
-                            <motion.img
-                                src={work.original}
-                                alt="Original"
-                                style={{
-                                    width: 325,
-                                    height: 300,
-                                    
-                                    position: "absolute"
-                                }}
-                                initial={{ opacity: 1 }}
-                                whileHover={{ opacity: 0 }}
-                                transition={{
-                                    duration: 1,
-                                    ease: "easeOut",
-                                }}
-                            />
-                            <motion.img
-                                src={work.hover}
-                                alt="Hover"
-                                style={{
-                                    width: 325,
-                                    height: 300,
-                                   
-                                    position: "absolute",
-                                    opacity: 0, // Initially hidden
-                                }}
-                                initial={{ opacity: 0 }}
-                                whileHover={{ opacity: 1 }} // Show hover image on hover
-                                transition={{
-                                    duration: 1,
-                                    ease: "easeIn",
-                                }}
-                            />
-                        </div>
-                        }
-                        >
-                        
-                        <Meta id="bottomCard"
-                            description="This is the description"
-                        />
-                    </Card>
-                ))}
-            </motion.div>
-        );
-    }
+            <motion.div id="grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', overflow: "hidden", position: "relative",padding: "1.5rem 1.5rem", justifyContent:"center" }}>
+    {work.map(work => (
+        <a key={work.id} href={work.link} target="_blank" rel="noopener noreferrer"> {/* Anchor tag wrapping the card */}
+            <Card id="workCard" hoverable style={{ width: 325, height:300}}
+                cover={
+                 <div>
+                    <motion.img
+                        src={work.original}
+                        alt="Original"
+                        style={{
+                            width: 325,
+                            height: 300,
+                            position: "absolute"
+                        }}
+                        initial={{ opacity: 1 }}
+                        whileHover={{ opacity: 0 }}
+                        transition={{
+                            duration: 1,
+                            ease: "easeOut",
+                        }}
+                    />
+                    <motion.img
+                        src={work.hover}
+                        alt="Hover"
+                        style={{
+                            width: 325,
+                            height: 300,
+                            position: "absolute",
+                            opacity: 0, // Initially hidden
+                        }}
+                        initial={{ opacity: 0 }}
+                        whileHover={{ opacity: 1 }} // Show hover image on hover
+                        transition={{
+                            duration: 1,
+                            ease: "easeIn",
+                        }}
+                    />
+                </div>
+                }
+                >
+                
+                <Meta id="bottomCard"
+                    description="This is the description"
+                />
+            </Card>
+        </a>
+    ))}
+    </motion.div>
+    );
+}
 
 /*
     const ListView= () =>{
